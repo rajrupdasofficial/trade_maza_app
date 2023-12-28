@@ -1,0 +1,53 @@
+.pinkdesign{
+    background-color: #fffee6;
+
+}
+.headtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .card {
+    flex: 0 1 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  .card img {
+    width: 93%;
+  height: 35%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .card button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+   /* Media query for mobile responsiveness */
+   @media (max-width: 768px) {
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 90%; /* Adjust width for smaller screens */
+      margin: 10px 0;
+    }
+  }

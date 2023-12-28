@@ -1,0 +1,58 @@
+/* header.css */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefa90;
+    height: calc(100vh - -10px);
+    margin-top: -200px;
+  }
+  
+  .headertext {
+    text-align: center;
+  }
+  
+  .headertext h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+  }
+  
+  .headertext h2 {
+    font-size: 54px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+  }
+  
+  .headertext h4 {
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+  }
+  .centeredimage{
+    max-width: 100%;
+    display: block;
+    margin: 20px auto; 
+    vertical-align: center;
+  }
+  .download-link {
+    display: inline-block;
+    background-color: #d2d076;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-link:hover {
+    background-color: #d2d076; /* Change to your preferred hover color */
+  }
+/* Your CSS */
+a .buttonspa {
+    font-size: 20px;
+
+    font-style: oblique;
+  }
+  

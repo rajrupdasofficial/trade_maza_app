@@ -1,0 +1,60 @@
+/* Your CSS */
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content-block {
+    display: flex;
+    width: 80%;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  
+  .content-block img {
+    max-width: 40%;
+    height: auto;
+    order: 2; /* Default order for images */
+  }
+  
+  .text-center-block {
+    text-align: center;
+    max-width: 70%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
+  .text-block {
+    max-width: 100%;
+    padding: 20px 275px;
+    order: 1; /* Default order for text */
+text-align: center;
+
+  }
+  
+  .content-block.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  @media (max-width: 768px) {
+    .content-block {
+        flex-direction: row;
+        align-items: flex-start; /* Revert align-items */
+      }
+      
+      .content-block.reverse {
+        flex-direction: row-reverse; /* Revert flex direction */
+      }
+      
+      .text-block {
+        max-width: 50%; /* Adjust text width for larger screens */
+      }
+      
+      .content-block img {
+        max-width: 50%; /* Adjust image width for larger screens */
+        margin-bottom: 0; /* Remove margin between image and text */
+      }
+  }
+  

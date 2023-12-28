@@ -1,0 +1,64 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 15px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-grow: 0.5;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  .nav-links a:hover{
+    text-decoration: dashed;
+    font-weight: bolder;
+  }
+  .btngrp{
+    margin-left: 30px;
+    position: absolute;
+    right: 20px;
+  }
+  
+  .signin-btn {
+    padding: 8px 20px;
+    border-radius: 27px;
+    background-color: #d2d076;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signin-btn:hover {
+    background-color: #d2d076;
+  }
+  
