@@ -62,3 +62,11 @@
     background-color: #d2d076;
   }
   
+@media (max-width:600px) {
+  .navbar{
+    padding: 1px;
+  }
+ .btngrp{
+  margin-top: 90px;
+ }
+}

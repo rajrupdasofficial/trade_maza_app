@@ -30,7 +30,7 @@
     max-width: 100%;
     padding: 20px 275px;
     order: 1; /* Default order for text */
-text-align: center;
+    text-align: center;
 
   }
   
@@ -38,7 +38,7 @@ text-align: center;
     flex-direction: row-reverse;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     .content-block {
         flex-direction: row;
         align-items: flex-start; /* Revert align-items */
@@ -50,6 +50,7 @@ text-align: center;
       
       .text-block {
         max-width: 50%; /* Adjust text width for larger screens */
+        padding: 3px 25px;
       }
       
       .content-block img {

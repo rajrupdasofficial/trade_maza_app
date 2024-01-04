@@ -1,11 +1,11 @@
 /* header.css */
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fefa90;
-    height: calc(100vh - -10px);
-    margin-top: -200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefa90;
+  height: calc(100vh - -80px);
+  margin-top: -160px;
   }
   
   .headertext {
@@ -30,10 +30,10 @@
     font-weight: lighter;
   }
   .centeredimage{
-    max-width: 100%;
+    width:80% ;
+    height: 50%;
     display: block;
     margin: 20px auto; 
-    vertical-align: center;
   }
   .download-link {
     display: inline-block;
@@ -56,3 +56,32 @@ a .buttonspa {
     font-style: oblique;
   }
   
+  /* media */
+@media (max-width:600px) {
+  .header{
+    margin-top: -220px;
+  }
+  .headertext h1{
+  font-size: 37px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  margin-top: 234px;
+  }
+  .headertext h2{
+  font-size: 37px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+}
+.headertext h4
+{
+  font-size: 17px;
+  color: black;
+  font-weight: bolder;
+}
+.centeredimage
+{
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+}
+}
