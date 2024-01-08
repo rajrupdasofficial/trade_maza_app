@@ -1,5 +1,6 @@
 import React from "react";
-import "../assets/css/contactform.css";
+// import "../assets/css/contactform.css";
+import "../../../public/assets/css/contactform.css";
 
 const ContactForm: React.FC = () => {
   return (

@@ -1,8 +1,9 @@
 import React from "react";
-import "../assets/css/card.css";
-import card1 from "../assets/images/card1.webp";
-import card2 from "../assets/images/card2.webp";
-import card3 from "../assets/images/card3.webp";
+import "../../../public/assets/css/card.css";
+// import card1 from "../../public/assets/images/card1.webp";
+import card1 from "../../../public/assets/images/card1.webp";
+import card2 from "../../../public/assets/images/card2.webp";
+import card3 from "../../../public/assets/images/card3.webp";
 const Card: React.FC = () => {
   return (
     <>

@@ -1,6 +1,6 @@
-import Blog from "./components/Blog";
-import BlogDetail from "./components/BlogDetails";
-import Home from "./components/Home";
+import Blog from "./Pages/Blog";
+import BlogDetail from "./Pages/BlogDetails";
+import Home from "./Pages/Home";
 import "./index.css";
 import { Route, Routes } from "react-router-dom";
 

@@ -1,6 +1,7 @@
-import Navbar from "./Nav";
-import card2 from "../assets/images/card2.webp";
-import "../assets/css/card.css";
+import Navbar from "../components/Navigation/Nav";
+import card2 from "../../public/assets/images/card2.webp";
+// import "../assets/css/card.css";
+import "../../public/assets/css/card.css";
 const Blog = () => {
   return (
     <>

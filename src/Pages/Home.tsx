@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./Header";
-import Middle from "./Moddle";
-import Card from "./Cards";
-import ContactForm from "./ContactForm";
-import Footer from "./Footer";
+import Header from "../components/HOC/Header";
+import Middle from "./ContentDescription";
+import Card from "../components/UI/Cards";
+import ContactForm from "../components/UI/ContactForm";
+import Footer from "../components/Footer/Footer";
 
 const Home: React.FC = () => {
   return (

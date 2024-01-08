@@ -1,6 +1,6 @@
-import "../assets/css/blogdetails.css"; // Import CSS for styling
-import setcoverImage from "../assets/images/card1.webp";
-import Navbar from "./Nav";
+import "../../public/assets/css/blogdetails.css";
+import setcoverImage from "../../public/assets/images/card1.webp";
+import Navbar from "../components/Navigation/Nav";
 // interface BlogDetailProps {
 //   coverImage: string;
 //   title: string;

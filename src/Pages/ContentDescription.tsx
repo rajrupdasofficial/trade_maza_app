@@ -1,8 +1,8 @@
 import React from "react";
-import "../assets/css/middle.css";
-import stock2 from "../assets/images/stock2.webp";
-import stock3 from "../assets/images/stock3.webp";
-import stock4 from "../assets/images/stock4.webp";
+import "../../public/assets/css/middle.css";
+import stock2 from "../../public/assets/images/stock2.webp";
+import stock3 from "../../public/assets/images/stock3.webp";
+import stock4 from "../../public/assets/images/stock4.webp";
 const Middle: React.FC = () => {
   return (
     <>

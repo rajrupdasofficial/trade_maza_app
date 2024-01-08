@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./Nav";
-import "../assets/css/header.css";
-import stockimage from "../assets/images/stock.webp";
+import Navbar from "../Navigation/Nav";
+import "../../../public/assets/css/header.css";
+import stockimage from "../../../public/assets/images/stock.webp";
 
 const Header: React.FC = () => {
   return (

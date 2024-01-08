@@ -1,8 +1,5 @@
 import React from "react";
-// import React from "react";
-// import { HiMenu } from "react-icons/hi";
-// import { SlClose } from "react-icons/sl";
-import "../assets/css/Navbar.css";
+import "../../../public/assets/css/Navbar.css";
 import { Link } from "react-router-dom";
 const Navbar: React.FC = () => {
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
